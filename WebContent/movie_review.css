@@ -1,0 +1,11 @@
+.left
+{
+	width=50%;
+	float: left;
+	 img  src="C:\Users\admin\Downloads\pushpa.jpg.jpeg";
+}
+.right
+{
+	width=50%;
+	float: right;
+}

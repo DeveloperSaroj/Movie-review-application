@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Insert title here</title>
+</head>
+<body  style=background-color:pink>
+//even or odd by taking user input 
+<input type="text" id="txt" placeholder="enter num...">
+<input type="text" id="txt2" />
+<script type="text/javascript">
+function even()
+{ 
+	 obj=document.getElementById("txt");
+	 num=parseInt(obj.value);
+	if(num%2==0)
+		{
+		alert("even");
+		}
+	else
+		{
+		alert("odd");
+		}
+}
+function add()
+{
+	obj1=document.getElementById("txt2");
+	obj2=document.getElementById("txt");
+	num1=parseInt(obj1.value);
+	num2=parseInt(obj2.value);
+	alert(num1+num2);
+   
+}
+
+</script>
+<input type="submit" id="smbt" value="click here to check   " onclick="even()"/>
+<input type="submit" id="smbt1" value="click to chk1" onclick="add()"/>
+
+
+</body>
+</html>
